@@ -352,12 +352,79 @@ body {
 /* ============================
    RESPONSIVE
    ============================ */
+
+/* --- Tablet (601px – 1024px) --- */
+@media (max-width: 1024px) {
+    .ai-chat-box   { width: 75%; }
+    .user-chat-box { width: 75%; left: 25%; }
+
+    #prompt { width: 60%; }
+
+    .chat-container { padding: 20px 18px; }
+}
+
+/* --- Mobile (≤ 600px) --- */
 @media (max-width: 600px) {
-    .user-chat-box { width: 85%; left: 15%; }
-    .ai-chat-box   { width: 85%; }
-    #prompt        { width: 50%; font-size: 14px; height: 46px; }
-    .prompt-area button { width: 46px; height: 46px; padding: 11px; }
-    .chat-container { padding: 16px 12px; }
+
+    /* Chat bubbles — wider, less offset */
+    .ai-chat-box   { width: 90%; }
+    .user-chat-box { width: 90%; left: 10%; }
+
+    /* Avatar sizes */
+    #aiImage   { width: 44px; height: 44px; }
+    #userImage { width: 44px; height: 44px; }
+
+    /* Bubble text area offsets match smaller avatar */
+    .ai-chat-area  { left: 9%; width: 88%; padding: 10px 14px; font-size: 14px; }
+    .user-chat-area { width: 88%; padding: 10px 14px; font-size: 14px; }
+
+    /* Chat container */
+    .chat-container {
+        padding: 12px 10px;
+        gap: 14px;
+        height: calc(100vh - 80px);
+    }
+
+    /* Prompt bar — tighter, still one row */
+    .prompt-area {
+        height: 70px;
+        padding: 0 10px;
+        gap: 8px;
+    }
+
+    #prompt {
+        width: 100%;          /* fill remaining space */
+        flex: 1;              /* flex-grow so buttons stay fixed size */
+        height: 44px;
+        font-size: 14px;
+        padding: 0 16px;
+    }
+
+    .prompt-area button {
+        width: 44px;
+        height: 44px;
+        flex-shrink: 0;
+        padding: 10px;
+    }
+
+    /* Theme toggle — slightly smaller */
+    #themeToggle {
+        width: 38px;
+        height: 38px;
+        font-size: 17px;
+        right: 12px;
+    }
+
+    /* Image preview — keep centred above prompt bar */
+    #imagePreview {
+        bottom: 78px;
+        padding: 6px 10px;
+    }
+
+    #previewImg {
+        width: 48px;
+        height: 48px;
+    }
 }
 
 
