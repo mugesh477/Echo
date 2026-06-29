@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Echo</title>
+    <link rel="stylesheet" href="input.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="chat-container">
+
+        <div class="ai-chat-box">
+            <img
+                src="./assests/chat-bot-profile.png"
+                alt="AI"
+                id="aiImage"
+                width="70"
+            >
+            <div class="ai-chat-area">
+               Hello! How can i help you today?
+            </div>
+        </div>
+
+    </div>
+
+    <div id="imagePreview" style="display:none;">
+        <img id="previewImg">
+        <button id="removeImage">✕</button>
+    </div>
+
+    <div class="prompt-area">
+
+        <input
+            type="text"
+            id="prompt"
+            placeholder="Message..."
+        >
+
+        <button id="image">
+            <img src="./assests/image.svg" alt="Upload Image" id="input-image">
+            <input type="file" accept="image/*" id="imageinput" hidden>
+        </button>
+
+        <button id="submit">
+            <img src="./assests/sent.svg" alt="Send Message">
+        </button>
+
+    </div>
+
+    <button id="themeToggle">🌙</button>
+
+    <script src="script.js"></script>
+
+    
+
+</body>
+</html>
