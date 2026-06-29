@@ -4,7 +4,7 @@ let imagebtn=document.querySelector("#image")
 let imageinput=document.querySelector("#imageinput")
 let removeImageBtn=document.querySelector("#removeImage")
  
-const API_URL = "http://localhost:3000/api/chat";
+const API_URL = " https://echo-backend-uqi7.onrender.com";
 
 
 
