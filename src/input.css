@@ -375,8 +375,8 @@ body {
     #userImage { width: 44px; height: 44px; }
 
     /* Bubble text area offsets match smaller avatar */
-    .ai-chat-area  { left: 9%; width: 88%; padding: 10px 14px; font-size: 14px; }
-    .user-chat-area { width: 88%; padding: 10px 14px; font-size: 14px; }
+    .ai-chat-area  { left: 14%; width: 84%; padding: 10px 14px; font-size: 14px; }
+    .user-chat-area { width: 84%; padding: 10px 14px; font-size: 14px; }
 
     /* Chat container */
     .chat-container {
