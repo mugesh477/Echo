@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assests/banner.png" alt="Echo Banner">
+  <img src="./src/assests/banner.png" alt="Echo Banner">
 </p>
 
 <h1 align="center">🤖 Echo AI</h1>
