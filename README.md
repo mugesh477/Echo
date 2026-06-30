@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/banner.png" alt="Echo Banner">
+  <img src="./assests/banner.png" alt="Echo Banner">
 </p>
 
 <h1 align="center">🤖 Echo AI</h1>
@@ -42,13 +42,13 @@
 
 ## ☀️ Light Theme
 
-![Light Theme](./screenshots/light.png)
+![Light Theme](./screenshots/light-mode.png)
 
 ---
 
 ## 🌙 Dark Theme
 
-![Dark Theme](./screenshots/dark.png)
+![Dark Theme](./screenshots/dark-mode.png)
 
 ---
 
